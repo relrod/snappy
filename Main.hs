@@ -20,5 +20,5 @@ style =
 
 main :: IO ()
 main = do
-  let config = setPort 8000 defaultConfig
+  config <- commandLineConfig (setPort 8000 defaultConfig)
   httpServe config (serveDirectoryWith directoryConfig ".")
