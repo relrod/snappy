@@ -2,7 +2,7 @@ name:                snappy
 version:             0.1.0.0
 synopsis:            python -m SimpleHTTPServer but in Haskell via Snap
 -- description:         
-homepage:            https://github.com/CodeBlock/snappy
+homepage:            https://github.com/relrod/snappy
 license:             BSD2
 license-file:        LICENSE
 author:              Ricky Elrod
